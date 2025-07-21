@@ -10,3 +10,19 @@ Se presenta un análisis teórico y préctico de los algoritmos de ordenamiento:
 - Merge Sort
 - Radix Sort
 El repositorio cuenta con un documento PDF con una documentación más detallada de dicho análsis
+## Deployment
+
+Para poder ejecutar este proyecto copia el repositorio en una carpeta local. A continuación se describe la forma en que funciona Archivos.cpp y Ordenamiento.cpp
+
+- Archivos.cpp
+
+La función principal debe tener una estructura similar a la sigue 
+
+```bash
+  vector<int> distribucion ={200,300,500};
+  vector<int> porcentaje ={10,50,100};
+  genArchivos("1K.txt",distribucion,porcentaje,1000);
+```
+Donde **distribucion** representa particiones del total de números y **porcentaje** el porcentaje de desorden asociado a cada partición. La funcion *genArchivos* toma como parámetos el nombre final del archivo y dos vectores de enteros (distribución y porcentaje respectivamente) y el tamaño total de dígitos a generar.
+
+Este programa creará un m vectores de tamaño n y desordenara una fracción de ellos (distribución) con  
