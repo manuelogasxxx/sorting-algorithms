@@ -25,4 +25,4 @@ La función principal debe tener una estructura similar a la sigue
 ```
 Donde **distribucion** representa particiones del total de números y **porcentaje** el porcentaje de desorden asociado a cada partición. La funcion *genArchivos* toma como parámetos el nombre final del archivo y dos vectores de enteros (distribución y porcentaje respectivamente) y el tamaño total de dígitos a generar.
 
-Este programa creará un m vectores de tamaño n y desordenara una fracción de ellos (distribución) con  
+Este programa creará un m vectores de tamaño n y desordenara una fracción de ellos (distribución) con un determinado porcentaje 
